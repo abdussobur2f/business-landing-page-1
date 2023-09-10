@@ -1,0 +1,342 @@
+.hero {
+  width: 100%;
+}
+.hero .hero_back_img {
+  background-image: url("../assets/1920x900.jpg");
+  width: 100%;
+  height: 100vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.hero .content {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  line-height: 30px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 100%;
+  padding: 0 2rem;
+}
+.hero .content h2 {
+  font-size: 45px !important;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+.about {
+  background-color: #f7f7f7;
+}
+.about img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: right;
+     object-position: right;
+}
+.about .what_do ul li span {
+  font-size: 24px;
+  color: #F94B71;
+}
+
+.services {
+  background-image: url("https://img.freepik.com/free-photo/abstract-blur-hotel-interior_74190-4973.jpg?w=740&t=st=1694277231~exp=1694277831~hmac=6c27e1d3a8fa0d3bb06fb125a0087656921231521ef2388f57a30c442cb84aa5");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.services ul li span {
+  font-size: 24px;
+  color: #F94B71;
+}
+.services .services_box {
+  background-color: #F94B71;
+  padding: 20px 10px;
+  border-radius: 10px;
+}
+.services .services_box h2 {
+  padding: 15px 0;
+  margin-bottom: 0 !important;
+  color: #ffffff !important;
+}
+.services .services_box p {
+  color: #ffffff !important;
+}
+
+.OurFeatures .body_service .banner1 {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.OurFeatures .body-2 {
+  position: relative;
+}
+.OurFeatures .body-2 .content_box {
+  background-color: #F94B71;
+  position: absolute;
+  top: 20px;
+  right: -10px;
+  padding: 0.6rem 2rem;
+  width: 90%;
+}
+.OurFeatures .body-2 .wrapper {
+  background-color: #f7f7f7;
+  padding: 10px;
+}
+.OurFeatures .body-3 {
+  position: relative;
+}
+.OurFeatures .body-3 .content_box {
+  background-color: #F94B71;
+  position: absolute;
+  top: 20px;
+  left: -10px;
+  padding: 0.6rem 2rem;
+  width: 90%;
+}
+.OurFeatures .body-3 .wrapper {
+  background-color: #f7f7f7;
+  padding: 10px;
+}
+
+.OurGallery .active {
+  color: #F94B71 !important;
+}
+.OurGallery .menu ul a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 15px;
+  font-weight: 400;
+  position: relative;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+.OurGallery .menu ul a::before {
+  content: "";
+  background-color: #000000;
+  width: 100%;
+  height: 1px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.OurGallery .menu ul a:hover::before {
+  background-color: #F94B71;
+}
+.OurGallery .menu ul a:hover {
+  color: #F94B71;
+}
+.OurGallery .gallary_item img {
+  max-height: 270px;
+  min-height: 270px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.ourprice {
+  background-color: #f7f7f7;
+}
+.ourprice .price_table {
+  background-color: #ffffff;
+  text-align: center;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.ourprice .price_table ul {
+  padding: 0;
+}
+.ourprice .price_table ul li {
+  padding: 1rem 0;
+  border-top: 1px solid #dddddd;
+  color: #666666;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0.032em;
+}
+.ourprice .price_table ul li:last-child {
+  padding: 2rem 0;
+}
+.ourprice .price_table ul li:first-child {
+  border-top: none;
+  padding: 3rem 0;
+  position: relative;
+  overflow: hidden;
+  font-size: 22px;
+  color: #000000;
+  text-transform: lowercase;
+  white-space: nowrap;
+}
+.ourprice .price_table ul li:first-child::before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 100px 138px 0 0;
+  border-color: #f94b71 transparent transparent transparent;
+  left: 0;
+  top: 0;
+  position: absolute;
+}
+.ourprice .price_table ul li:first-child span {
+  position: absolute;
+  left: -1px;
+  top: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  transform: rotate(325deg);
+  font-size: 20px !important;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.our_team .member_list {
+  position: relative;
+  z-index: 3;
+}
+.our_team .member_list img {
+  min-height: 280px;
+  max-height: 280px;
+  position: relative;
+  width: 100%;
+  -o-object-position: top !important;
+     object-position: top !important;
+  filter: contrast(1);
+}
+.our_team .member_list:hover::after {
+  content: "";
+  background-color: #000000;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  opacity: 0.4;
+  cursor: pointer;
+}
+.our_team .member_list:hover .mem_adress {
+  opacity: 1;
+}
+.our_team .mem_adress {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  right: 0;
+  color: #F94B71;
+  z-index: 10;
+  font-size: 18px;
+  opacity: 0;
+}
+.our_team .mem_adress ul {
+  flex-direction: column;
+}
+.our_team .mem_adress ul span {
+  background-color: #dddddd;
+  border-radius: 50%;
+  display: flex;
+  padding: 4px;
+  align-content: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  transition: all ease 0.3s;
+}
+.our_team .mem_adress ul span:hover {
+  background-color: #000000;
+}
+
+.counter {
+  background-image: url("https://img.freepik.com/free-photo/coffe-shop-with-wooden-walls-unfocused_1203-1229.jpg?w=740&t=st=1694343965~exp=1694344565~hmac=bc728c669da2623225f737c1857597bcd8f4ac57fe3b2c796f0ae47933fc6a2d");
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 300px;
+}
+.counter h2 {
+  font-family: Arial, Helvetica, sans-serif !important;
+  margin-bottom: 0 !important;
+  font-size: 28px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  padding: 1rem 0;
+}
+.counter span {
+  font-size: 15px;
+  color: #F94B71;
+}
+
+.our_news .top_img {
+  min-height: 270px;
+  max-height: 270px;
+}
+.our_news .content_body {
+  font-size: 15px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+.our_news .content_body p {
+  padding: 1rem 0;
+  margin-bottom: 0 !important;
+  text-transform: lowercase;
+}
+.our_news .content_body p::first-letter {
+  text-transform: uppercase;
+}
+.our_news .content_body a {
+  text-decoration: none;
+  color: #F94B71;
+}
+.our_news .date_blog {
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-weight: 500;
+  color: #666666;
+  font-size: 15px;
+  position: relative;
+  margin-bottom: 0.6rem;
+}
+.our_news .date_blog::before {
+  content: "";
+  background-color: #F94B71;
+  width: 100%;
+  height: 1.5px;
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+}
+
+.contact {
+  background-image: url("https://cdn.pixabay.com/photo/2015/07/17/22/43/student-849821_1280.jpg");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  height: 80vh;
+}
+.contact .wrapper_contact {
+  background-color: #F94B71;
+  display: inline-block;
+  padding: 50px 100px 50px 15px;
+  color: #ffffff;
+  text-align: left;
+  border-radius: 10px;
+}
+.contact .wrapper_contact h1 {
+  font-family: Arial, Helvetica, sans-serif !important;
+}
+.contact .wrapper_contact p {
+  color: #ffffff;
+  font-size: 20px;
+}
+.contact .wrapper_contact span {
+  font-size: 35px;
+}/*# sourceMappingURL=Home.css.map */

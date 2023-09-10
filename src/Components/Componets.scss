@@ -1,0 +1,152 @@
+ 
+ $primary-color: #777777;
+ $black: #000000;
+ $white: #ffffff;
+ $hover-color: #F94B71;
+ $font: 'Raleway', serif;
+ 
+ header{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;;box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+ z-index: 100;
+ padding: 5px 0;
+
+ .navbar{
+    z-index: 100;
+    
+ }
+    .nav-item{
+        
+         
+     
+        .nav_icon{
+            margin-right: 5px;
+            font-size: 24px;
+            color: #f94b71 ;
+        line-height: 10px !important;
+     
+
+        }
+         .nav-link {
+            color: #777777;
+            font-size: 14px;
+            font-weight: 500;
+            letter-spacing: 0.03em;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+           margin-bottom: 0 !important;
+            gap: 5px;
+            transition: all ease-in .3s;
+
+            &:hover{
+                color: #f94b71;
+            }
+        }
+    }
+    .navbar-toggler {
+        padding:  5px !important;
+        
+    }
+    .navbar-toggler:focus {
+        text-decoration: none;
+        outline: 0;
+       background-color: #f94b71;
+       color: #ffffff;
+        
+        box-shadow: 0px 0px 40px -12px #f94b71 !important;
+    }
+
+    .navbar-toggler-icon {
+   
+        font-size: 16px !important;
+    }
+ }
+
+ // footer 
+footer {
+    color: $white;
+    padding: 5rem 7rem;
+background-color: #333333;
+    .wrapper_footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      
+        text-align: center;
+        gap: 10px;
+    }
+
+    i {
+        font-size: 30px;
+        text-transform: uppercase;
+        font-weight: 500;
+
+
+
+    }
+
+    ul {
+        display: flex;
+        gap: 10px;
+        padding: 0;
+
+        li {
+
+            color: #f7f7f7;
+            font-size: 15px;
+            font-weight: 400;
+            letter-spacing: 0.03em;
+            line-height: 1.7;
+
+        }
+    }
+
+    .input-group {
+
+        .form-control {
+            border-radius: 10px !important;
+
+        }
+
+        .form-control:focus {
+            outline: none;
+            box-shadow: #f94b71 0px 0px 20px 10px !important;
+        }
+
+        span {
+            font-size: 22px;
+            background-color: $hover-color;
+            border-radius: 10px !important;
+            padding: 10px 20px;
+        }
+
+    }
+.icon_foter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 10px;
+    span{
+        font-size: 24px;
+        border: 1px solid #7777;
+        display: flex;
+        padding: 7px;
+        cursor: pointer;
+        
+    }
+}
+
+
+
+}
+
+
+.fixed{
+    background-color: #f7f7f7;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}

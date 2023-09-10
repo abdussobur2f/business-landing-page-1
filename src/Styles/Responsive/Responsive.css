@@ -1,0 +1,54 @@
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 90% !important;
+  }
+  .hero .content h2 {
+    font-size: 33px !important;
+    font-weight: 300;
+    letter-spacing: 1px;
+  }
+  .OurFeatures .body-2 .content_box {
+    background-color: #F94B71;
+    position: absolute;
+    top: 20px;
+    right: 0 !important;
+    padding: 0.6rem 2rem;
+    width: 90%;
+  }
+  .OurFeatures .body-3 .content_box {
+    background-color: #F94B71;
+    position: absolute;
+    top: 20px;
+    left: 0 !important;
+    padding: 0.6rem 2rem;
+    width: 90%;
+  }
+  .contact .wrapper_contact {
+    background-color: #F94B71;
+    display: inline-block;
+    padding: 0 !important;
+    color: #ffffff;
+    text-align: left;
+    border-radius: 10px;
+  }
+  footer {
+    padding: 2rem 1rem;
+  }
+  footer ul {
+    display: flex;
+    gap: 0;
+    padding: 0;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  footer ul li {
+    padding: 0 10px;
+  }
+  .input-group span {
+    font-size: 22px;
+    background-color: #F94B71;
+    border-radius: 10px !important;
+    padding: 7px 20px !important;
+  }
+}/*# sourceMappingURL=Responsive.css.map */
